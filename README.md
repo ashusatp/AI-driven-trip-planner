@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# AI Trip Planning App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+AI Trip Planning App is a React Native application that leverages AI to generate personalized trip itineraries based on user-provided budget and duration. The app integrates various APIs to enhance functionality and user experience.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **AI-Generated Trip Plans**: Utilizes the Gemini API to create trip plans tailored to user budget and duration.
+- **User Authentication**: Implements Firebase for secure user authentication and trip data storage.
+- **Dynamic Place Images**: Fetches and displays place images using the Google Place API.
+- **Global State Management**: Uses Context API for efficient and centralized state management.
+- **Real-Time Data**: Provides real-time trip data and visually appealing design for an enhanced user experience.
 
-2. Start the app
+## Technologies Used
 
-   ```bash
-    npx expo start
-   ```
+- **Front-End**: React Native, Context API
+- **Back-End**: Firebase (authentication and data storage)
+- **APIs**: Gemini API, Google Place API
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/ashusatp/AI-driven-trip-planner.git
+    ```
+2. **Navigate to the project directory**:
+    ```sh
+    cd AI-driven-trip-planner
+    ```
+3. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Usage
 
-## Get a fresh project
+1. **Start the application**:
+    ```sh
+    npm start
+    ```
+2. **Run the app on your device/emulator**:
+    ```sh
+    npm run android    # For Android
+    npm run ios        # For iOS
+    ```
 
-When you're ready, run:
+## Configuration
 
-```bash
-npm run reset-project
-```
+1. **Firebase Setup**:
+   - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
+   - Add your app to the Firebase project and obtain the Firebase configuration.
+   - Replace the Firebase configuration in your project.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Gemini API Setup**:
+   - Obtain an API key from the [Gemini API](https://example.com/gemini-api) provider.
+   - Replace the API key in your project configuration.
 
-## Learn more
+3. **Google Place API Setup**:
+   - Obtain an API key from the [Google Cloud Console](https://console.cloud.google.com/).
+   - Replace the API key in your project configuration.
 
-To learn more about developing your project with Expo, look at the following resources:
+4. **Environment Variables**:
+   - EXPO_PUBLIC_GOOGLE_MAP_KEY= 
+   - EXPO_PUBLIC_GEMINI_API_KEY=
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Contributing
 
-## Join the community
+1. **Fork the repository**.
+2. **Create a new branch**:
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes**.
+4. **Commit your changes**:
+    ```sh
+    git commit -m 'Add some feature'
+    ```
+5. **Push to the branch**:
+    ```sh
+    git push origin feature/your-feature-name
+    ```
+6. **Open a pull request**.
 
-Join our community of developers creating universal apps.
+## Acknowledgements
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Gemini API](https://example.com/gemini-api)
+- [Firebase](https://firebase.google.com/)
+- [Google Place API](https://developers.google.com/places/web-service/overview)

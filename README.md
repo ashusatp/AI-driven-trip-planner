@@ -4,6 +4,9 @@
 
 AI Trip Planning App is a React Native application that leverages AI to generate personalized trip itineraries based on user-provided budget and duration. The app integrates various APIs to enhance functionality and user experience.
 
+## Demo link
+https://drive.google.com/file/d/1oi8jerFY2acakMPd3W_ZDhslTlSOO091/view?usp=sharing
+
 ## Features
 
 - **AI-Generated Trip Plans**: Utilizes the Gemini API to create trip plans tailored to user budget and duration.
